@@ -40,8 +40,11 @@ function start() {
           type: "input",
           message: "What is the ID of the product you would like to buy?",
           validate: function(input){
-          var valid = Number.isInteger(input);
-            return valid || 'The product ID has to be an integer. Try again.';
+            if (parseInt(input)===parseFloat(input)){
+              return true;
+            } else {
+              return 'Please enter an integer for Product ID'
+            }
           }
         },
         {
@@ -49,8 +52,11 @@ function start() {
           type: "input",
           message: "How many units of the product would you like to buy?",
           validate: function(input){
-          var valid = Number.isInteger(input);
-            return valid || 'Please enter a whole number';
+            if (parseInt(input) === parseFloat(input)) {
+              return true;
+            } else {
+              return 'Please enter a whole number for quantity'
+            }
           }
         }
         ])
