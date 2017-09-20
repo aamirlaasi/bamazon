@@ -14,4 +14,14 @@ on the product ID
 3. The first step is for the user to specify the id of the product they would like to purchase as shown in the image below:
 
     ![Step1 Image]
-    (https://github.com/aamirlaasi/bamazon/Step1.png)
+    (https://github.com/aamirlaasi/bamazon/blob/master/Step1.png)
+
+4. The second step is for the user to specify the quantity of the product as shown in the image below:
+
+    ![Step2 Image]
+    (https://github.com/aamirlaasi/bamazon/blob/master/Step2.png)
+
+5. After the customer specifies the first two steps, the storefront will calculate the total cost of the purchase and display it in the terminal. The transaction is now complete. The storefront is now ready for the next transaction.
+
+    ![Step3 Image]
+    (https://github.com/aamirlaasi/bamazon/blob/master/Step3.png)
