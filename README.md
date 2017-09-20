@@ -13,4 +13,5 @@ on the product ID
 
 3. The first step is for the user to specify the id of the product they would like to purchase as shown in the image below:
 
-    !Step1.png
+    ![Step1 Image]
+    (https://github.com/aamirlaasi/bamazon/Step1.png)
